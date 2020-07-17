@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Add Menu Item Form</title>
+</head>
+<body style="background-color:#2F4E90">
+<body text ="white">
+  <div align="right">
+    <button type="button"><a href="../login.html">Logout</a></button>
+    <button type="button"><a href="caterer.html">Go Back</a></button>
+  </div>
+  <form action="addMenuItemsDBMS.php" method="post">
+  <center>
+<div >
+  <h1>Add Menu Item Form</h1>
+  <table>
+   <tr>
+    <td>Item Name:</td>
+    <td><input type="text" name="name" required></td>
+   </tr>
+   <tr>
+    <td>Description:</td>
+    <td><input type="text" name="description" required></td>
+   </tr>
+   <tr>
+    <td>Price:</td>
+    <td><input type="text" name="price" required></td>
+   </tr>
+   <tr>
+    <td>Delivery Date:</td>
+    <td>
+      <input type="radio" name="deliveryDate" value="Monday" required>Monday
+      <input type="radio" name="deliveryDate" value="Tuesday" required>Tuesday
+      <input type="radio" name="deliveryDate" value="Wednesday" required>Wednesday
+      <input type="radio" name="deliveryDate" value="Thursday" required>Thursday
+      <input type="radio" name="deliveryDate" value="Friday" required>Friday
+    </td>
+   </tr>
+    <td><br><input type="submit" value="Submit"></td>
+   </tr>
+  </table>
+</div>
+  </center>
+</form>
+</body>
+</html>
